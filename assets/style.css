@@ -41,8 +41,8 @@ main{
 input{
     height: 40px;
     width:348px;
-   
-    
+    outline: none;
+    text-decoration: none;
 }
 .lupa{
  padding-left: 7px;
