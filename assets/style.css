@@ -17,16 +17,29 @@ aside{
     grid-row-start:2;
     grid-row-end:5;
 }
+aside > a> img{
+    padding-bottom:10px ;
+}
 
 main{
     display: grid;
-    grid-template-columns: 200px repeat(4, 1fr);
+    grid-template-columns: 160px repeat(4, 1fr);
     grid-template-rows: 60px repeat(4, 200px);
     background-color:white ;
-    gap: 20px;  
+    gap: 30px;  
 }   
 .item{
     border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 0.8em;
+    width: 190px;
+    color: black;
+    margin: 0;
+    margin-left: 5px;
 }
 .busca{
     border: 1px solid black;
@@ -46,4 +59,11 @@ input{
 }
 .lupa{
  padding-left: 7px;
+}
+.thumb{
+    width: 200px;
+    height: 150px;   
+}
+a > p>.legend{
+    display: inline-block;
 }
